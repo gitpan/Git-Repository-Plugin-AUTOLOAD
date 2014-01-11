@@ -1,0 +1,14 @@
+Changes
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+dist.ini
+lib/Git/Repository/Plugin/AUTOLOAD.pm
+t/00-load.t
+t/000-report-versions-tiny.t
+t/autoload.t
+t/release-distmeta.t
+t/release-pod-coverage.t
+t/release-pod-syntax.t
+weaver.ini
