@@ -6,7 +6,7 @@ use File::Temp qw( tempdir );
 use File::Spec::Functions qw( catfile catdir );
 use Git::Repository qw( AUTOLOAD );
 
-has_git();
+has_git('1.5.0');
 
 # clean up the environment
 delete @ENV{qw( GIT_DIR GIT_WORK_TREE )};

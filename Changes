@@ -1,6 +1,8 @@
 Revision history for Git-Repository-Plugin-AUTOLOAD
 
-1.000 Fri Jan 10 2014
+1.001 Sun Feb 23 2014
+        - skip t/autoload.t when running against git older than 1.5.0
 
+1.000 Fri Jan 10 2014
         - Git::Repository can be made to look like the other git wrappers
           and call unknown methods as git subcommands

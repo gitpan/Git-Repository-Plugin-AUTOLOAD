@@ -1,8 +1,5 @@
 package Git::Repository::Plugin::AUTOLOAD;
-{
-  $Git::Repository::Plugin::AUTOLOAD::VERSION = '1.000';
-}
-
+$Git::Repository::Plugin::AUTOLOAD::VERSION = '1.001';
 use warnings;
 use strict;
 use 5.006;
@@ -39,7 +36,7 @@ Git::Repository::Plugin::AUTOLOAD - Git subcommands as Git::Repository methods
 
 =head1 VERSION
 
-version 1.000
+version 1.001
 
 =head1 SYNOPSIS
 
